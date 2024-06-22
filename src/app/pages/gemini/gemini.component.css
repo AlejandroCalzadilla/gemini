@@ -1,0 +1,17 @@
+.generated-text-card {
+    background-color:black;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+
+  .generated-text-card p {
+    white-space: pre-wrap; /* Preserve line breaks in the text */
+    overflow-wrap: break-word; /* Break words when necessary */
+    word-break: break-word; /* Break words when necessary (fallback for older browsers) */
+    line-height: 1.5; /* Adjust line height for better readability */
+  }
+  
